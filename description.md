@@ -41,6 +41,7 @@ print(enteros_mas_uno)
 **>[2, 3, 4, 5, 6]**
 
 Vamos a explicar de forma ordenada como funciona la sintaxis:
+
   * elemento + 1 : es la operación que realizamos, esta es la expresión que va a formar parte de la lista final.
   * `for` : es el llamado al for y delimita la operación que queda dentro de la lista con el resto de la expresión
   * elemento: es el nombre que le asignamos durante cada iteración al elemento contenido en la lista **enteros** 
