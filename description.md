@@ -58,9 +58,9 @@ Veamos las generalidades de la sintaxis de la lista por comprensión:
 
 Como vimos, hay tres actores principales dentro de este recurso, la **expresion** el **elemento** y el **iterable**, vamos a diferenciarlos:
 
-   *  **expresion** : **numero + 1** : queda dentro de la lista.
-   *  **elemento**  : **numero**     : nombre de cada valor del iterable.
-   *  **iterable**  : **enteros**    : estructura que recorremos.
+   *  **expresion** : *numero + 1* : queda dentro de la lista.
+   *  **elemento**  : *numero*     : nombre de cada valor del iterable.
+   *  **iterable**  : *enteros*    : estructura que recorremos.
 
 
 
