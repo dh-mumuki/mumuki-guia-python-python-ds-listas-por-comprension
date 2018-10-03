@@ -1,6 +1,6 @@
 ### Listas por comprensión
 
-Un recurso muy importante en python son las listas por comprensión, esta forma de estructura de datos permite realizar operaciones lógicas e iteracion y al mismo momento definir una lista.
+Un recurso muy importante en python son las listas por comprensión, esta forma de estructura de datos permite realizar iteración, operaciones lógicas, operaciones sobre datos y al mismo tiempo definir una lista.
 
 La utilidad de la lista por comprensión viene dada por la claridad y por el hecho de que en una sola línea se puede agrupar código con mucha funcionalidad.
 
