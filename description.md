@@ -113,7 +113,7 @@ Veamos la sintaxis general para la definición de un diccionario.
 ``` python
 { expresion_para_llave : expresion_para_valor for elemento in iterable}
 ```
-Como podemos ver en la sintaxis, la diferencia es que ahora debemos ocuparnos también de las llaves, la dificultad adicional al uso del diccionario con respecto a la lista por comprensión, puede venir dada por la definición de las llaves.
+Como podemos ver en la sintaxis, lo nuevo es que ahora debemos ocuparnos también de las llaves, la dificultad adicional al uso del diccionario con respecto a la lista por comprensión, puede venir dada por la definición de las llaves.
 
 Las partes del diccionario por comprensión son:
 
@@ -124,5 +124,6 @@ Las partes del diccionario por comprensión son:
   * `elemento`: es el nombre con el que definimos a cada elemento del iterable durante cada iteración (igual que en la lista)
   * `in`: indica sobre que vamos a iterar.
   * `iterable`: es el objeto que vamos a recorrer.
+
 
 
