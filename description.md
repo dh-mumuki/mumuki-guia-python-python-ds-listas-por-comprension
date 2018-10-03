@@ -33,7 +33,7 @@ Vamos a proponer una solución nueva, utilizando esta vez, una lista por compren
 enteros = [1, 2, 3, 4, 5]
 
 # definimos una lista por comprension
-enteros_mas_uno = [ elemento+1  for  elemento  in  enteros ]
+enteros_mas_uno = [ numero+1  for  numero  in  enteros ]
 
 print(enteros_mas_uno)
 ```
@@ -44,9 +44,9 @@ Como podemos observar, esta lista por comprensión permite resumir muchas operac
 
 Vamos a explicar de forma ordenada como funciona la sintaxis:
 
-  * **elemento + 1** : es la operación que realizamos, esta es la expresión que va a formar parte de la lista final.
+  * **numero + 1** : es la operación que realizamos, esta es la expresión que va a formar parte de la lista final.
   * `for` : es el llamado al for y delimita la operación que queda dentro de la lista con el resto de la expresión
-  * **elemento**: es el nombre que le asignamos durante cada iteración al elemento contenido en la lista **enteros** 
+  * **numero**: es el nombre que le asignamos durante cada iteración al elemento contenido en la lista **enteros** (nosotros definimos ese nombre como "queramos") 
   * `in` : señala al iterable que vamos a recorrer (en este caso, la lista **enteros**)
   * **enteros**: el iterable, en este caso, una lista conteniendo una serie creciente de números naturales.
 
@@ -58,9 +58,9 @@ Veamos las generalidades de la sintaxis de la lista por comprensión:
 
 Como vimos, hay tres actores principales dentro de este recurso, la **expresion** el **elemento** y el **iterable**, vamos a diferenciarlos:
 
-   *  **expresion** : **elemento + 1** : queda dentro de la lista.
-   *  **elemento**  : **elemento**     : nombre de cada valor del iterable.
-   *  **iterable**  : **enteros**      : estructura que recorremos.
+   *  **expresion** : **numero + 1** : queda dentro de la lista.
+   *  **elemento**  : **numero**     : nombre de cada valor del iterable.
+   *  **iterable**  : **enteros**    : estructura que recorremos.
 
 
 
