@@ -62,6 +62,20 @@ Como vimos, hay tres actores principales dentro de este recurso, la **expresion*
    *  **elemento**  : *numero*     : nombre que asignamos a cada valor dentro del iterable.
    *  **iterable**  : *enteros*    : estructura que recorremos.
 
+Además es posible realizar operaciones lógicas que nos permiten filtrar el resultado de la expresion basándonos en algún criterio, para eso debemos realizar al final un llamado al `if`:
+
+``` python
+# definimos una lista
+enteros = [1, 2, 3, 4, 5]
+
+# definimos una lista por comprension
+enteros_mas_uno = [ numero+1  for  numero  in  enteros if numero > 3 ]
+
+print(enteros_mas_uno)
+```
+ _Salida:_
+**>[5, 6]**
+
 
 
 
