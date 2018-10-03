@@ -82,7 +82,7 @@ Integrando los nuevos recursos:
   
   * `if` : señala la expresión condicional que vamos a evaluar, si el resultado del condicional es `True` la expresión
   es incluida en la lista, si el resultado del condicional es `False` entonces la expresión no es incluida en la lista.
-  *  **numero > 3**: es el condicional que va a ser evaluado, para cada valor del iterable asignado a numero, evalúa si la magnitud numérica es mayor a 3.
+  *  **numero > 3**: es el condicional que va a ser evaluado, para cada valor del iterable asignado a **numero**, evalúa si la magnitud numérica es mayor a 3.
 
-Como podemos observar, este condicional actua como filtro, dejando únicamente las expresiones para las que el valor número es mayor que 3, lo que es importante señalar, es que la expresión **numero + 1** no influye en si va a ser incluida o no en la lista, ya que eso se decide a nivel del condicional (después del `if`), otra aclaración es que la variable número, se define inmediatamente después del llamado al `for`.
+Como podemos observar, este condicional actua como filtro, dejando únicamente las expresiones para las que el valor **numero** es mayor que 3, lo que es importante señalar, es que la expresión **numero + 1** no influye en si va a ser incluida o no en la lista, ya que eso se decide a nivel del condicional (después del `if`), otra aclaración es que la variable **numero**, se define inmediatamente después del llamado al `for`.
 
