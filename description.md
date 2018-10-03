@@ -56,7 +56,11 @@ Veamos las generalidades de la sintaxis de la lista por comprensión:
 [expresion for elemento in iterable]
 ```
 
-Como vimos en el ejemplo práctico anterior hay tres actores principales dentro de este recurso, la **expresion** el **elemento** y el **iterable**
+Como vimos, hay tres actores principales dentro de este recurso, la **expresion** el **elemento** y el **iterable**, vamos a diferenciarlos:
+
+   *  **expresion** : **elemento + 1** : queda dentro de la lista.
+   *  **elemento**  : **elemento**     : nombre de cada valor del iterable.
+   *  **iterable**  : **enteros**      : estructura que recorremos.
 
 
 
