@@ -78,7 +78,7 @@ print(enteros_mas_uno)
 
 La diferencia con la lista por comprensión anterior es un llamado a `ìf` y un condicional posterior.
 
-Repasando e integrando los nuevos recursos:
+Integrando los nuevos recursos:
   
   * `if` : señala la expresión condicional que vamos a evaluar, si el resultado del condicional es `True` la expresión
   es incluida en la lista, si el resultado del condicional es `False` entonces la expresión no es incluida en la lista.
