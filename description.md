@@ -86,3 +86,11 @@ Integrando los nuevos recursos:
 
 Como podemos observar, este condicional actua como filtro, dejando únicamente las expresiones para las que el valor **numero** es mayor que 3, lo que es importante señalar, es que la expresión **numero + 1** no influye en si va a ser incluida o no en la lista, ya que eso se decide a nivel del condicional (después del `if`), otra aclaración es que la variable **numero**, se define inmediatamente después del llamado al `for`.
 
+
+### Diccionarios por comprensión
+
+Los diccionarios por comprensión tienen una motivación similar al de las listas por comprensión, al igual que las listas el código es mas resumido y claro, la diferencia es que es posible desplegar los datos dentro de un diccionario.
+
+Vimos que la principal diferencia entre una lista y un diccionario es la forma en la que se accede a los distintos elementos: en la lista es un acceso numérico y en el diccionario se accede por llave.
+
+
