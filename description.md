@@ -24,4 +24,18 @@ print(enteros_mas_uno)
 **>[2, 3, 4, 5, 6]**
 
 
+Esta sería una solución posible, en este caso realizamos un llamado al `for` para iterar sobre cada elemento de la lista, dentro de la iteración sumamos uno a cada elemento y lo incluimos en una lista que definimos *antes* de la entrada al `for`.
+
+Vamos a proponer una solución nueva, utilizando esta vez, una lista por comprensión.
+
+``` python
+# definimos una lista
+enteros = [1, 2, 3, 4, 5]
+
+# definimos una lista por comprension
+enteros_mas_uno = [ elemento+1  for  elemento  in  enteros ]
+
+print(enteros_mas_uno)
+```
+
 
