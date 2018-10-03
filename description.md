@@ -19,6 +19,8 @@ for elemento in lista:
 
 print(enteros_mas_uno)
 ```
+ _Salida:_
+**>[2, 3, 4, 5, 6]**
 
 
 
