@@ -93,4 +93,16 @@ Los diccionarios por comprensión tienen una motivación similar al de las lista
 
 Vimos que la principal diferencia entre una lista y un diccionario es la forma en la que se accede a los distintos elementos: en la lista es un acceso numérico y en el diccionario se accede por llave.
 
+Ahora bien, la dificultad adicional al uso del diccionario por comprensión con respecto a la lista por comprensión, puede ser la manipulación de las llaves, recordemos como funcionaba el diccionario.
+
+
+``` python
+# se definen los elementos del diccionario como par llave:valor.
+mi_dict = {'llave_1' : 123, 'llave_2': 100, 'llave_3' : 311 }
+
+# se accede a un elemento del diccionario a través de su llave.
+mi_dict['llave_2']
+```
+ _Salida:_
+**>100**
 
