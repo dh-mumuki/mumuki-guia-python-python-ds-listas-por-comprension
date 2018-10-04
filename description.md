@@ -44,7 +44,7 @@ Como podemos observar, esta lista por comprensión permite resumir muchas operac
 
 Vamos a explicar de forma ordenada como funciona la sintaxis:
 
-  * **numero + 1** : es la operación que realizamos, esta es la expresión que va a formar parte de la lista final.
+  * **numero + 1** : es la operación que realizamos, esta es la expresión que numero a numero va a formar parte de la lista final.
   * `for` : es el llamado al for y delimita la operación que queda dentro de la lista con el resto de la expresión
   * **numero**: es el nombre que le asignamos durante cada iteración al elemento contenido en la lista **enteros** (nosotros definimos ese nombre como "queramos") 
   * `in` : señala al iterable que vamos a recorrer (en este caso, la lista **enteros**)
