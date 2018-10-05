@@ -1,0 +1,16 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- value: "[26, 45, 15]"
+  checked: true
+- value: "[[26], [45], [15]]"
+  checked: false
+- value: '86'
+  checked: false
+name: New exercise
