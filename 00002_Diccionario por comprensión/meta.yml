@@ -15,4 +15,6 @@ choices:
   checked: false
 - value: "{ ['ballena', 'platielminte', 'gallina'] : 3}"
   checked: false
+- value: Devuelve error, ya que la lista no puede ser una llave.
+  checked: false
 name: Diccionario por comprensión
