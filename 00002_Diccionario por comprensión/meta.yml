@@ -7,14 +7,19 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: "{'ballena': 7, 'gallina': 7, 'platielminte': 12}"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "{'ballena': 7, 'gallina': 7, 'platielminte': 12}"
   checked: true
-- value: "{'ballena': 3, 'gallina': 3, 'platielminte': 3}"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "{'ballena': 3, 'gallina': 3, 'platielminte': 3}"
   checked: false
-- value: "{3 :  ['ballena', 'platielminte', 'gallina']}"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "{3 :  ['ballena', 'platielminte', 'gallina']}"
   checked: false
-- value: "{ ['ballena', 'platielminte', 'gallina'] : 3}"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "{ ['ballena', 'platielminte', 'gallina'] : 3}"
   checked: false
-- value: Devuelve error, ya que la lista no puede ser una llave.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Devuelve error, ya que la lista no puede ser una llave.
   checked: false
 name: Diccionario por comprensión

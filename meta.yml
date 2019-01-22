@@ -1,5 +1,5 @@
 ---
-name: Python-BONUS-Listas_Diccionarios_por_Comprensión
+name: Listas por Comprensión
 locale: es
 type: learning
 beta: false
@@ -9,3 +9,4 @@ id_format: "%05d"
 order:
 - 1
 - 2
+private: true
