@@ -16,4 +16,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '86'
   checked: false
-name: Mi primer lista por comprensión
+name: Mi primera lista por comprensión
