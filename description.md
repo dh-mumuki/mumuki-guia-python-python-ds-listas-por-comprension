@@ -1,19 +1,19 @@
-Un recurso muy importante en Python son las **listas por comprensión**. Esta forma de estructura de datos permite realizar iteraciones, operaciones lógicas, operaciones sobre datos y, al mismo tiempo, definir una lista que contenga los resultados esperados.
+Un recurso muy importante en Python son las **listas por comprensión**. Esta forma de estructura de datos permite realizar iteraciones, operaciones sobre datos, operaciones lógicas y, al mismo tiempo, definir una lista que contenga los resultados esperados.
 
-La utilidad de las listas por comprensión viene dada por la economía de recursos de su sintaxis: ¡basta una sola línea de código para definirlas! A su vez, las listas por comprensión suelen ser muy eficientes en términos de recursos computacionales.
+La utilidad de las listas por comprensión viene dada por la simpleza de su sintaxis: ¡basta una sola línea de código para definirlas! A su vez, las listas por comprensión suelen ser muy eficientes en términos de recursos computacionales.
 
-Ahora veamos una situación en donde, a partir de una lista de enteros, debemos sumar uno a cada elemento y devolver los resultados en otra lista:
+Ahora veamos una situación en donde, a partir de una lista de enteros, debemos sumar 1 a cada elemento y devolver los resultados en otra lista:
 
 ``` python
-# definimos una lista
+# Definimos una lista
 enteros = [1, 2, 3, 4, 5]
 
-# inicializamos una lista vacía
+# Inicializamos una lista vacía
 enteros_mas_uno = []
 
-# recorremos los elementos de la lista uno por uno
+# Recorremos los elementos de la lista uno por uno
 for numero in enteros:
-    # sumo uno al elemento y ese resultado lo incluyo en la lista enteros_mas_uno
+    # Sumamos 1 al elemento e inclumimos ese resultado en la lista enteros_mas_uno
     enteros_mas_uno.append(numero + 1)
 
 print(enteros_mas_uno)
@@ -22,15 +22,15 @@ print(enteros_mas_uno)
 > [2, 3, 4, 5, 6]
 ```
 
-Ésta sería una solución posible. En este caso, realizamos un llamado al `for` para iterar sobre cada elemento de la lista, y en cada iteración sumamos uno a cada elemento y lo incluimos en una lista que definimos *antes* de la entrada al `for`.
+Ésta sería una solución posible. En este caso, realizamos un llamado al `for` para iterar sobre cada elemento de la lista, y en cada iteración sumamos 1 a cada elemento y lo incluimos en una lista que definimos *antes* de la entrada al `for`.
 
 Vamos a proponer una solución nueva, utilizando esta vez una lista por comprensión:
 
 ``` python
-# definimos una lista
+# Definimos una lista
 enteros = [1, 2, 3, 4, 5]
 
-# definimos una lista por comprensión
+# Definimos una lista por comprensión
 enteros_mas_uno = [numero + 1 for numero in enteros]
 
 print(enteros_mas_uno)
